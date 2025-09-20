@@ -31,7 +31,7 @@ Complete Exercise 3 in the space below:
 foods.unshift("taco")
 console.log("Exercise 3 result", foods);
 
-Copy
+
 /*
 Exercise 4: Access an array element
 
@@ -45,3 +45,39 @@ Complete Exercise 4 in the space below:
 
 favFoods = foods[1]
 console.log("Exercise 4 result:",favFoods);
+
+/*
+Exercise 5: Insert an element between two others
+
+1) Insert the string 'tofu' between 'pizza' and 'cheeseburger' in the array.
+
+Complete Exercise 5 in the space below:
+*/
+favFoods =  foods.splice(2,0,"tofu")
+console.log("exercise 5 result:", foods);
+
+
+/*
+Exercise 6: Replace elements
+
+1) Replace 'pizza' in the `foods` array with 'sushi' and 'cupcake'.
+
+Complete Exercise 6 in the space below:
+*/
+favFoods = foods.splice(1,2,"sushi", "cupcake")
+console.log("exercise 6 result:", foods);
+
+Copy
+/*
+Exercise 7: Using the `slice()` method
+
+1) Use the `slice()` method to create a new array that contains 'sushi' and 
+   'cupcake'.
+
+2) Assign it to a variable named `yummy`.
+
+Complete Exercise 7 in the space below:
+*/
+
+const yummy = foods.splice(1,2,"sushi", "cupcake");
+console.log("exercise 7 result:", yummy);
